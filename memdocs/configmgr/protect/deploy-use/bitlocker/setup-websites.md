@@ -2,7 +2,7 @@
 title: Set up BitLocker portals
 titleSuffix: Configuration Manager
 description: Install the BitLocker management components for the self-service portal, and the administration and monitoring website
-ms.date: 09/15/2020
+ms.date: 12/23/2024
 ms.service: configuration-manager
 ms.subservice: protect
 ms.topic: how-to
@@ -106,7 +106,7 @@ This process uses a PowerShell script, MBAMWebSiteInstaller.ps1, to install thes
 
 - `-DomainName` *applies to version 2002 and later*: Specify the NetBIOS domain name of the server with the help desk or self-service web portal role. Only necessary if the NetBIOS domain name doesn't match the DNS domain name. This configuration is also known as a disjointed domain namespace. For example, `-DomainName fabrikham` where the DNS domain name is `contoso.com`.<!-- MEMDocs #759 -->
 
-- -IncludePortInSPN information about this parameter should be specified which will help admins to use them when they use http based SPNs. Also reference for this article should be mentioned to help them out. https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/error-0x80090322-when-connecting-powershell-to-remote-server-via-winrm
+- -IncludePortInSPN information about this parameter should be specified which will help admins to use them when they use http based SPNs. Also reference for this article should be mentioned to help them out. https://learn.microsoft.com/troubleshoot/windows-server/system-management-components/error-0x80090322-when-connecting-powershell-to-remote-server-via-winrm
 
 - `-Uninstall`: Uninstalls the BitLocker Management Help Desk/Self-Service web portal sites on a web server where they have been previously installed.
 
