@@ -13,7 +13,7 @@ ms.collection:
 
 This line can be ignored. This is not a edit, but we should be placing this page under tunnel documentation
 
-# Reference for Microsoft Tunnel Gateway
+# Command-line Reference for Microsoft Tunnel Gateway
 
 The information in this reference for Microsoft Tunnel Gateway is provided to support installation and maintenance of the tunnel installation in your environment.
 
